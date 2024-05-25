@@ -38,7 +38,7 @@ function startStopwatch() {
     s_btn.style.display = 'none';
 
     document.getElementById('holder').style.display = 'none';
-    document.getElementById('time').style.margin = "40% 0 1em 0";
+    document.getElementById('time').style.margin = "50% 0 0 0";
 
     timer = setInterval(() => {
         console.log("Interval function called...");
