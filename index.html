@@ -5,32 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
     <title>StopWatch</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-
+    <!-- Stop Watch Title -->
     <div class="title">
         <h1>Stop Watch</h1>
     </div>
 
+    <!-- Container for stopwatch display and buttons -->
     <div class="container">
         <div class="content">
 
+            <!-- Placeholder for user to input timer -->
             <div class="placeholder" id="holder">
                 <p>Set Your Timer</p>
             </div>
 
+            <!-- Display for stopwatch time -->
             <div class="timer" id="time">
-                <p> <span class="box" id="watch_hour">12</span> : <span class="box" id="watch_mint">00</span> : <span class="box" id="watch_second">00</span></p>
+                <p> <span class="box" id="watch_hour">12</span> : <span class="box" id="watch_mint">00</span> : <span
+                        class="box" id="watch_second">00</span></p>
             </div>
 
+            <!-- Start button for stopwatch -->
             <button class="S-btn" id="start-btn">Start</button>
 
+            <!-- Container for pause, end, and reset buttons -->
             <div class="btns" id="button-container">
                 <button class="E-btn btn" id="end-btn">End</button>
                 <button class="R-btn btn" id="reset-btn">Reset</button>
@@ -40,6 +48,7 @@
     </div>
 
 
+    <!-- Footer with developer information -->
     <footer>
         <p>Develop by Abdul Ahad</p>
     </footer>
